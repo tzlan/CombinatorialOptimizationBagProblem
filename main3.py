@@ -13,12 +13,8 @@ def calculerUtilite(poids, utilite):
         poidsUtilite.append((utilite[i] / poids[i]))
     return print (poidsUtilite)
 
-calculerUtilite(poids, utilite)
+#def trierParUtiliteOrdreCroissantAvecLeMemeIndiceQuePoids(poids, utilite):
 
-def trierSelonUtilitDecroissante(calculerUtilite):
-    poidsUtilite = calculerUtilite
-    poidsUtilite.sort(reverse=True)
-    return print (poidsUtilite)
 
 
 def insertionSac1et2(poids, utilite, capaciteSac1, capaciteSac2):
@@ -37,11 +33,11 @@ def insertionSac1et2(poids, utilite, capaciteSac1, capaciteSac2):
 
 
 #Appels
-print("trierSelonUtilitDecroissante(calculerUtilite(poids, utilite))")
-trierSelonUtilitDecroissante(calculerUtilite(poids, utilite))
 
 print("insertionSac1et2(poids, utilite, capaciteSac1, capaciteSac2)")
 insertionSac1et2(poids, utilite, capaciteSac1, capaciteSac2)
+
+calculerUtilite(poids, utilite)
 
 
 

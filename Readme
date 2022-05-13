@@ -1,5 +1,25 @@
 Probleme du sac a dos a 2 sacs
 
+poids
+utilite
+capacitesac1
+capacitesac2
+rapport poids/utilité
+
+1 Calculer le rapport poids/utilité
+
+2 Trier la liste des utilites
+
+3 Mettre objets dans les sacs 1 et 2 - Sans dépasser les capacités des sacs
+
+
+
+
+
+
+
+
+
 Rapport modele
 
 1. Description du probleme et de l'algo étudié
