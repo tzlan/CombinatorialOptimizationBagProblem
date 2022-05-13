@@ -38,9 +38,14 @@ def getValeurMax(poids, valeurs, capacite):
 
 
 poids = [1, 5, 3, 2, 4]
-valeurs = [10, 50, 20, 30, 60]
+valeurs = [190, 50, 20, 30, 60]
 capacite = 11
 valeurMax = getValeurMax(poids, valeurs, capacite)
 print("Valeur maxi dans le sac à dos =", valeurMax)
+
+
+#Liste des objets
+#poids = [1, 5, 3, 2, 4]
+
 
 
